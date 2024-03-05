@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarioRun</title>
+</head>
+<body style="text-align: center;">
+
+    <h1 style="color: red;">Mario Run Project</h1>
+
+     <button onclick="mariostop()">Mario Stop</button> 
+    <img id="mario" src="Assets/Images/mariostop1.png" alt="">
+    <button onclick="mariorun()">Mario Run</button>
+
+
+
+    <script>
+
+        function mariorun() {
+            document.getElementById("mario").src = "Assets/Images/MarioRun.gif"
+        }
+
+        function mariostop() {
+            document.getElementById("mario").src = "Assets/Images/mariostop1.png"
+        }
+
+    </script>
+</body>
+</html>
